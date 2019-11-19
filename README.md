@@ -17,12 +17,22 @@ Running the App:
 * If can't get data from network, the data will be loaded from SQLite local database in the device.
 * If failure to get data from both network and database, an error message box will be displayed with retry option.
 
+
 Testing:
 * Few JUNIT tests are provided to showcase unit testing for Android Testing and module testing.
 
 
 
+Improvements that can be done:
+* Support search for different cities:
+- Option1: Download city list data from http://bulk.openweathermap.org/sample/city.list.json.gz
+and store in SQLite database. Use SQL query to find the right city id to use with OpenWeatherMap API.
 
+- Option2: Setup search server as described in https://gitlab.com/mvysny/owm-city-finder
+
+* Use advanced features like Retrofit , Rx , Room to improve responsiveness. Currently, just used basic apis.
+
+* Add more test cases for good coverage.
 
 
 
