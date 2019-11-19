@@ -25,6 +25,7 @@ Testing:
 
 Improvements that can be done:
 * Support search for different cities:
+
 Option1: Download city list data from http://bulk.openweathermap.org/sample/city.list.json.gz
 and store in SQLite database. Use SQL query to find the right city id to use with OpenWeatherMap API.
 
